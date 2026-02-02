@@ -12,7 +12,7 @@ This project is a weighing system designed for recycling environments. It connec
 
 * **Calibration:** Calibration factors are saved in the ESP32's non-volatile memory, keeping the scale accurate after power cycles.
 
-* **Timekeeping:** An integrated **DS1302 RTC** provides accurate timestamps even without an internet connection.
+* **Timekeeping:** An integrated DS1302 RTC provides accurate timestamps even without an internet connection.
 
 ## Tech Stack
 
@@ -46,7 +46,7 @@ This method is highly efficient for the ESP32 as it requires minimal memory (sto
 
 ## Hardware Design
 
-The complete circuit schematic and the **Gerber files** for PCB visualization and manufacturing are available in the `docs/` folder. Additionally, the following table details the specific pin assignments and connections established in those designs:
+The complete circuit schematic and the Gerber files for PCB visualization and manufacturing are available in the `docs/` folder. Additionally, the following table details the specific pin assignments and connections established in those designs:
 
 | **Component**         | **Pin (GPIO)**      | **Description**                  |
 | --------------------- | ------------------- | -------------------------------- |
