@@ -234,7 +234,7 @@ class RecyclingApp(ctk.CTk):
         self.collectors_db = manage_collectors_db("read", COLLECTORS_DB_FILE)
         collector_names = sorted(list(self.collectors_db.keys()))
 
-        self.title(f"Asorate Registration System - {self.serial_port}")
+        self.title(f"Registration System - {self.serial_port}")
         self.geometry("800x650") 
         self.resizable(True, True)
         self.grid_columnconfigure(0, weight=1)
@@ -519,9 +519,10 @@ if __name__ == "__main__":
             os.makedirs("assets", exist_ok=True) # Ensure folder exists
             img = Image.new('RGB', LOGO_SIZE, color = 'gray')
             d = ImageDraw.Draw(img)
-            d.text((10,20), "ASORATE", fill=(0,0,0))
+            d.text((10,20), "Logo not found", fill=(0,0,0))
             # Saves to root if folder fails, just to be safe
             img.save(LOGO_PATH) 
         except Exception: pass
+
 
     COMPortSelection().mainloop()
