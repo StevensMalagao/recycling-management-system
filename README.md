@@ -31,8 +31,8 @@ This project is a weighing system designed for recycling environments. It connec
 
 * **DS1302 (RTC):** Real-time clock source. It ensures accurate timestamping without internet connectivity.
 
-* **C++ (Arduino):** Used for firmware development, focusing on low-latency hardware interaction.
-
+* **Arduino IDE:** Used for firmware development.
+  
 ### Software & Data Management
 
 * **Python:** Chosen for its efficiency in handling data streams and library support for office automation.
