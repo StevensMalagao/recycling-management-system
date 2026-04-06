@@ -4,6 +4,13 @@
 
 This project is a weighing system designed for recycling environments. It connects an ESP32 to a Python desktop application to replace manual recording. The system processes weight signals in real-time and logs the data into .xlsx files for administrative management.
 
+## System Architecture
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/system_flow_dark.svg">
+  <img src="./docs/system_flow_light.svg" alt="System Architecture" width="100%">
+</picture>
+
 ## Features
 
 * **Signal Processing:** Uses an **Exponential Moving Average (EMA)** filter to stabilize readings from the load cell and reduce electrical noise.
